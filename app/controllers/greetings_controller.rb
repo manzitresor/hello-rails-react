@@ -6,5 +6,4 @@ class GreetingsController < ApplicationController
       format.json { render json: @greetings }
     end
   end
-  end
 end
